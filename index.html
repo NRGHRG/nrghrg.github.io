@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portafolio | Guillermo Rivas</title>
+  <meta name="description" content="Portafolio de Guillermo Hernán Rivas Gormaz: Fullstack Java/Spring Boot, Python y Seguridad en Redes." />
+  <style>
+    :root{--bg:#0f172a;--card:#111827;--fg:#e2e8f0;--muted:#94a3b8;--border:#334155}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+    .wrap{max-width:900px;margin:0 auto;padding:40px 20px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;box-shadow:0 12px 30px rgba(0,0,0,.3)}
+    h1{margin:0 0 6px}
+    .muted{color:var(--muted);margin:0 0 20px}
+    .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:16px}
+    a.btn{display:block;text-decoration:none;border:1px solid var(--border);padding:12px 14px;border-radius:10px}
+    a.btn:hover{background:#0b1220}
+    footer{color:var(--muted);font-size:14px;margin-top:20px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Guillermo Hernán Rivas Gormaz</h1>
+      <p class="muted">Fullstack (Java/Spring Boot), Python (automatización) y Seguridad en Redes.</p>
+
+      <div class="grid">
+        <a class="btn" href="https://github.com/NRGHRG/Portafolio" target="_blank" rel="noopener">📂 Portafolio (README)</a>
+        <a class="btn" href="https://github.com/NRGHRG/Scraper-Reddit" target="_blank" rel="noopener">🕸️ Scraper de Reddit</a>
+        <a class="btn" href="https://www.linkedin.com/in/ghrg/" target="_blank" rel="noopener">🔗 LinkedIn</a>
+        <a class="btn" href="https://github.com/NRGHRG" target="_blank" rel="noopener">👨‍💻 GitHub</a>
+      </div>
+
+      <footer>© <span id="y"></span> Guillermo Rivas — Santiago, CL</footer>
+    </div>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
